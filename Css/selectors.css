@@ -1,0 +1,25 @@
+#has{
+    background-color: blue;
+    color: black;
+}
+
+.su{
+    background-color: chartreuse;
+    color: chocolate;
+}
+h3{
+    background-color: aqua;
+}
+p{
+    color: blueviolet;
+}
+
+p,h2,u{
+    background-color: bisque;
+    color: blueviolet;
+}
+
+*h3{
+    background-color: brown;
+    color: white;
+}

@@ -1,0 +1,29 @@
+/* Descendent selector */
+.div1 section{
+    background-color: brown;
+}
+/* Child selector */
+.div3>h3{
+    color: blue ;
+} 
+.div1>p{
+    color: rebeccapurple;
+}
+
+/* Ad. sibling selector */
+h2+div{
+    color: yellow;
+}
+div+h6{
+    color: pink;
+}
+
+/* general sibling selector */
+h3~h6{
+    color: chocolate;
+    background-color: cyan;
+}
+h2~h3{
+    color: chocolate;
+    background-color: cyan;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structural pesudo class</title>
+    <style>
+        p:first-child {
+            background-color: pink;
+        }
+
+        div:first-of-type {
+            background-color: blue;
+        }
+
+        div:last-child {
+            background-color: yellow;
+        }
+
+        p:last-of-type {
+            background-color: brown;
+        }
+
+        div:nth-child(1) {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>hi this is one</p>
+        <p>hi this is two</p>
+        <p>hi this is threee</p>
+        <div1>forth div</div1>
+        <div>fivth div </div>
+    </div>
+    <hr>
+
+
+    <div>
+        <p>hi this is one</p>
+        <p>hi this is two</p>
+        <p>hi this is threee</p>
+        <div1>forth div</div1>
+        <div>fivth div </div>
+    </div>
+    <hr>
+
+</body>
+
+</html>
